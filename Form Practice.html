@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form Practice</title>
+  </head>
+  <body>
+<!-- <h1>Sign In</h1>
+    <form>
+    <label>
+      User Name
+      <input type="text" placeholder="username" name="User Name" value="">
+    </label>
+    <label>
+      Password
+      <input type="password" placeholder="password" name="Password" value="">
+    </label>
+      <button>Submit</button>
+    </form> -->
+
+    <h1>Sign In</h1>
+      <form>
+        <label for="Email">Email</label>
+          <input id="Email" type="email" placeholder="email" name="Email" value="" required>
+        <label for="Password">Password</label>
+          <input id="Password" type="password" placeholder="password" name="Password" value="" required>
+        <button>Submit</button>
+      </form>
+
+    <p>
+      Do you prefer cats or dogs?
+    </p>
+    <form>
+      <!-- Using the same name tag to make a radio button either/or -->
+      <label for="Dogs">Dogs</label>
+      <input id="Dogs" type="radio" name="Petchoice" value="Dogs">
+
+      <label for "Cats">Cats</label>
+      <input id="Cats" type="radio" name="Petchoice" Value="Cats">
+
+
+      <!-- Using select and option tags -->
+      <!-- Putting the name attribute next to select gives a category to the choice -->
+      <p>What mood are you in?</p>
+      <select name="mood">
+        <option value="happy">:)</option>
+        <option value="neutral">:|</option>
+        <option value="sad">:(</option>
+      </select>
+
+      <button>Submit</button>
+</p>
+      <!-- Using textarea inputs -->
+      <textarea name="paragraph" rows="10" Columns="50"></textarea>
+      <button>Go!</button>
+    </form>
+
+  </body>
+</html>
