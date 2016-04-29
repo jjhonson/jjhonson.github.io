@@ -1,9 +1,18 @@
 h1  {
-  color: red;
+  color: #2552cc;
+  border-color: #381b40;
+  border-width: 5px;
+  border-style: dashed;
+  text-align: center;
+  background: #e4da7a;
 }
 h4{
-  color: purple;
+  background: #3f53a7;
+  color: #67b689;
 }
 li{
-  color: green;
+  color: #960e0e;
+}
+body{
+  background: rgba(112, 109, 91, 0.45)
 }
