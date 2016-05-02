@@ -4,12 +4,8 @@ body {
 
 IMG {
   border: 10px solid #1f854e;
-}
-
-img.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 10px
+  margin-left: 10%;
 }
 
 h1 {
@@ -17,8 +13,11 @@ h1 {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
+  text-transform: uppercase;
+  width: 70%;
+  padding-bottom: 10px;
 }
 a {
   color: #cbbcc7;

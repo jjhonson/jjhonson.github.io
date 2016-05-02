@@ -1,0 +1,18 @@
+/*There are 6 margins horizontally - so to make up the remaining 10% you do 10%/6 = 1.66%*/
+
+img {
+  width: 30%;
+  float: left;
+  margin: 1.66%
+}
+
+p {
+  font-family: raleway;
+  margin-left: 1.66%;
+  font-size: 23px;
+  font-weight: 800;
+  text-transform: uppercase;
+  border-bottom: 2px solid #f1f1f1;
+  width: 30%;
+  padding-bottom: 20px;
+}
