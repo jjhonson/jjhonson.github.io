@@ -8,6 +8,11 @@ IMG {
   margin-left: 10%;
 }
 
+div {
+  width: 40%;
+  margin: 2%;
+}
+
 h1 {
   color: #5088d2;
   font-size: 40px;
