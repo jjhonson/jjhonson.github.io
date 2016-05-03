@@ -11,6 +11,29 @@ IMG {
 div {
   width: 40%;
   margin: 2%;
+  clear: both;
+}
+
+/*.html {
+    display: flex;
+    float: left;
+}
+
+.css {
+  float: right;
+}*/
+
+
+footer {
+width: 100%
+text-align: center;
+}
+
+
+footer ul {
+display: inline-table;
+list-style: none;
+margin: 0px 25px 0px 25px;
 }
 
 h1 {
@@ -37,5 +60,21 @@ a:visited {
 p {
 	text-align: left;
   padding-top: 10px;
-  border-top: 2px solid #e2e1e2;
+}
+
+hr {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
 }
