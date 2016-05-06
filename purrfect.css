@@ -16,6 +16,10 @@ h1 {
   font-size: 5em;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=def277d43764315bfef63f3465a3eba2);
   background-size: cover;

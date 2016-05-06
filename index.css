@@ -25,6 +25,10 @@ a {
   color: white;
 }
 
+html {
+  height: 100%;
+}
+
 .navbar-inverse {
   background: #366ea6;
 }
@@ -42,4 +46,5 @@ body {
   background-size: cover;
   background-position: center;
   font-family: kadwa;
+  background-repeat: no-repeat;
 }
