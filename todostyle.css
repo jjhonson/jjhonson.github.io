@@ -1,0 +1,14 @@
+body {
+  background: grey;
+}
+li {
+  border: 2px solid red
+}
+#special {
+  color: white;
+  background: black;
+}
+.highlight {
+  background: yellow;
+  text-decoration: line-through;
+}
