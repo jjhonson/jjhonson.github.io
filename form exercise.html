@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Excercise on creating forms with different input types -->
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+
+    <form>
+      <label for="FirstName">First Name:</label>
+      <input id="FirstName" type="text" placeholder="John" name="FirstName"required>
+      <label for="LastName">Last Name:</label>
+      <input id="LastName" type="text" placeholder="Smith" name="LastName"required>
+    </p>
+    <!--  Could also use a div here -->
+
+      <label for="Male">Male</label>
+      <input id="Male" type="Radio" name="sex" value="Male"/>
+      <label for="Female">Female</label>
+      <input id="Female" type="Radio" name="sex" value="Female"/>
+      <label for="Other">Other</label>
+      <input id="Other" type="Radio" name="sex" value="Other"/>
+    </p>
+
+      <label for="Email">Email:</label>
+      <input id="Email" type="email" name="email" placeholder="your email" required />
+      <label for="Password">Password:</label>
+      <input id="Password" type="password" name="password" placeholder="your password" required=">10" required="<5"/>
+    </p>
+
+      <label for="Birthday">Birthday:</label>
+      <select name="month" placeholder="Month">
+        <option value="Jan">January</option>
+        <option value="Feb">February</option>
+      </select>
+
+      <select name="Day" placeholder="Day">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+
+      <select name="year" placeholder="year">
+        <option value="2000">2000</option>
+        <option value="2001">2001</option>
+        <option value="2001">2002</option>
+        <option value="2001">2003</option>
+        <option value="2001">2004</option>
+        <option value="2001">2005</option>
+      </select>
+    </p>
+
+    <label for="consent">I agree to the terms and conditions</label>
+    <input id="consent" type="radio" required />
+  </p>
+
+  <button>Submit</button>
+
+    </form>
+  </body>
+</html>
