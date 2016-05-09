@@ -1,0 +1,10 @@
+body {
+  font-family: 'Varela Round', sans-serif;
+  color: green;
+  background: black;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
