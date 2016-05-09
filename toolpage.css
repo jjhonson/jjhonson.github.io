@@ -8,3 +8,19 @@ h1 {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+html {
+  height: 100%;
+}
+
+.navbar-inverse {
+  background: #366ea6;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
+}
