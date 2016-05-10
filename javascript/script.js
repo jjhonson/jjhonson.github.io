@@ -4,4 +4,4 @@ var age = prompt("How old are you?");
 alert("Your name is " + firstName + " " + lastName);
 alert("and you are " + age + " years old!!");
 var days = age * 365;
-alert(age + " year is roughly" + days + " days!");
+alert(age + " years is roughly" + days + " days!");
