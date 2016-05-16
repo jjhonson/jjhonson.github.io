@@ -29,7 +29,7 @@ function addTodo(){
   var newTodo = prompt("Enter new to do?");
   // add to dos to array
   todos.push(newTodo);
-  console.log(newTodo + "Added to list")
+  console.log(newTodo + " added to list")
 }
 
 function deleteTodo(){
