@@ -19,4 +19,4 @@ while(input !== "quit") {
   // ask again for new input
   input = prompt("What would you like to do?");
 }
-console.log("OK< YOU QUIT THE APP");
+console.log("OK, YOU QUIT THE APP ... HOPE YOU'RE HAPPY");
