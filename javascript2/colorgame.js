@@ -49,7 +49,7 @@ resetButton.addEventListener("click", function(){
   for (var i = 0; i < squares.length; i++) {
     squares[i].style.background = colors[i];
   }
-  h1.style.background = "#232323";
+  h1.style.background = "steelblue";
 })
 
 colorDisplay.textContent = pickedColor;
@@ -102,7 +102,7 @@ function generateRandomColors(num){
 }
 
 function randomColor(){
-  // pick a "red" from 0 - 255 (you have to do one more than the max for some reason)
+  // pick a "red" from 0 - 255 (one more than the max because the floor function will round down- 0.99 becomes 0 and 255.99 becomes 255)
   var r = Math.floor(Math.random() * 256);
   // pick a "green" from 0 - 255
   var g = Math.floor(Math.random() * 256);
