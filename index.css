@@ -3,32 +3,32 @@ h1 {
   text-align: center;
   font-size: 3em;
   font-weight: 700;
-  color: white;
-  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+  color: #232323;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.1),
               0px 8px 13px rgba(0,0,0,0.1),
               0px 18px 23px rgba(0,0,0,0.1);
 }
 
 h4 {
   text-transform: capitalize;
-  color: white;
+  color: #232323;
   font-weight: 700;
   font-size: 1.6em;
   padding-bottom: 4%;
   text-align: center;
-  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.1),
               0px 8px 13px rgba(0,0,0,0.1),
               0px 18px 23px rgba(0,0,0,0.1);
 }
 
 li {
-  color: white;
+  color: #232323;
   padding-left: 5px;
   padding-top: 3px;
 }
 
 a {
-  color: white;
+  color: #232323;
 }
 
 html {
@@ -48,7 +48,7 @@ html {
 }
 
 body {
-  background: url(https://wallpaperscraft.com/image/dark_spots_texture_background_50355_2558x1562.jpg);
+  background: white;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
