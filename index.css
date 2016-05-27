@@ -1,5 +1,6 @@
 h1 {
   padding-bottom: 2%;
+  text-transform: capitalize;
   text-align: center;
   font-size: 3em;
   font-weight: 700;
@@ -21,6 +22,12 @@ h4 {
               0px 18px 23px rgba(0,0,0,0.1);
 }
 
+h5 {
+  color: #912086;
+  text-transform: capitalize;
+  text-align: center;
+}
+
 li {
   color: #232323;
   padding-left: 5px;
@@ -33,6 +40,11 @@ a {
 
 html {
   height: 100%;
+}
+
+#cool {
+  color: #912086;
+  font-weight: 700;
 }
 
 .navbar-inverse {
