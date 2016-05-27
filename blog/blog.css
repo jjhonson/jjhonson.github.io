@@ -2,17 +2,17 @@ h1 {
   padding: 20px;
   max-width: 700px;
   width: 80%;
-  margin: 20px auto;
+  text-align: center;
   font-family: source sans pro;
   font-size: 2.5em;
-  color: steelblue;
+  color: #5c0f77;
   text-transform: uppercase;
 }
 
 .content {
   border: 20px solid #bdc3c7;
   padding: 20px;
-  max-width: 700px;
+  max-width: 65%;
   width: 80%;
   margin: 20px auto;
   font-family: source sans pro;
