@@ -1,3 +1,17 @@
 i.icon {
     font-size: 2em;
 }
+
+.container.main {
+    margin-top: 3.0em;
+}
+
+#delete {
+    display:inline;
+}
+
+.date {
+    color: #3E8EA8;
+    font-style: italic;
+    font-size: 0.7em;
+}
